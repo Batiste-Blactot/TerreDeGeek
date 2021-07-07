@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact, Terre de Geek</title>
+  <meta name="description" content="Terre de Geek est une entreprise familiale de vente de produits électroniques (téléphonie,
+                                    informatique, produits dérivés etc.)">
+  <meta name="auhtor" content="Batiste">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Mon site -->
+  <!-- Header -->
+  <header class="header">
+    <div class="main_title">
+      <h1>Terre De Geek</h1>
+    </div>
+    <div class="banner">
+      <img src="img/banner.png" alt="Bannière" width="1200" height="400">
+    </div>
+    <div class="menu_nav">
+  <!-- Menu Nav -->
+      <nav>
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" visibility: hidden/>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="a_propos_de_l'entreprise.html">A Propos de l'entreprise</a></li>
+          <li><a href="prestations.html">Prestations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Section -->
+  <div class="title_formulaire">
+   <h2>Formulaire de contact</h2>
+  </div>
+  <form class="formulaire_contact">
+    <div class="enteryourname">
+      <label for="firstname">Votre Nom:</label><br>
+      <input type="text" name="firstname" id="firstname" minlength="2" maxlength="40" required placeholder="ex:Dupont">
+    </div>
+    <div class="lastname">
+      <label for="lastname">Votre Prénom</label><br>
+      <input type="text" name="lastname" id="lastname" minlength="2" maxlength="40" required placeholder="ex:Pierre">
+    </div>
+    <div class="mobilephone">
+      <label for="mobilephone">Votre Numéro de Téléphone</label><br>
+      <input type="tel" name="mobilephone" id="mobilephone"  required placeholder="07-98-78-59-64">
+    </div>
+    <div class="emailadress">
+      <label for="emailadress">Votre email:</label><br>
+      <input type="email" name="emailadress" id="emailadress" required placeholder="contact@demo.fr">
+    </div>
+    <div class="age">
+      <label for="age">Votre âge</label><br>
+      <input type="number" name="age" id="age" required>
+    </div>
+    <div class="object_message">
+      <label for="object_select">L'objet de votre message</label>
+      <select name="object_select" id="object_select" required>
+        <option value="">--Choisissez l'objet--</option>
+        <option value="information">Information</option>
+        <option value="réclamation">Réclamation</option>
+        <option value="partenariat">Partenariat</option>
+        <option value="autres">Autres</option>
+      </select>
+    </div>
+    <div class="user_message">
+      <label for="user_message"></label>
+      <textarea name="user_message" id="user_message" cols="30" rows="5" placeholder="Votre message...." required></textarea>
+    </div>
+    <div class="submit_reset">
+      <div class="submit_message">
+        <input type="submit" value="Envoyer">
+      </div>
+      <div class="reset">
+        <input type="reset" value="Annuler">
+      </div>
+    </div>
+  </form>
+  <div class="image_maps_terredegeek">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.186469861133!2d1.144573415094425!3d49.
+                02606039684117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e1475b4fda5547%3A0x301393852094ad6b!
+                2s21%20Rue%20du%20Dr%20Oursel%2C%2027000%20%C3%89vreux!5e0!3m2!1sfr!2sfr!4v1616664770226!5m2!1sfr!2sfr"
+                width="1200" height="350" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
+ <!-- Footer -->
+  <footer>
+    <div class="adress_entreprise">
+      <h3>21 Rue du Dr Oursel<br>
+          27000 - Evreux<br>
+          France
+      </h3>
+    </div>
+    <div class="mentions_légales">
+      <h3><a href="Pages_externes/mentions_légales.html">Mentions Légales</a></h3>
+    </div>
+    <div class="image_réseaux_sociaux">
+      <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="Youtube PNG" width="24" height="24"></a>
+      <a href="https://fr-fr.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Facebook PNG" width="24" height="24"></a>
+      <a href="https://twitter.com/?lang=fr" target="_blank"><img src="img/twitter.png" alt="Twitter PNG" width="24" height="24"></a>
+      <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="img/instagram.png" alt="Instagram PNG" width="24" height="24"></a>
+    </div>
+    <div class="copyright">
+      <h3>© Mars 2021 - Batiste Blactot - Développeur web et web mobile</h3>
+    </div>
+  </footer>
+
+
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
